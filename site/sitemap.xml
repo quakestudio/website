@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://quakegym.com/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://quakegym.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quakegym.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quakegym.com/"/>
+    <loc>https://quake-studio.com/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://quake-studio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quake-studio.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quake-studio.com/"/>
   </url>
   <url>
-    <loc>https://quakegym.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://quakegym.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quakegym.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quakegym.com/"/>
+    <loc>https://quake-studio.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://quake-studio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quake-studio.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quake-studio.com/"/>
   </url>
   <url>
-    <loc>https://quakegym.com/personal-training/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://quakegym.com/personal-training/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quakegym.com/en/personal-training/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quakegym.com/personal-training/"/>
+    <loc>https://quake-studio.com/personal-training/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://quake-studio.com/personal-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quake-studio.com/en/personal-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quake-studio.com/personal-training/"/>
   </url>
   <url>
-    <loc>https://quakegym.com/en/personal-training/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://quakegym.com/personal-training/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quakegym.com/en/personal-training/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quakegym.com/personal-training/"/>
+    <loc>https://quake-studio.com/en/personal-training/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://quake-studio.com/personal-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quake-studio.com/en/personal-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quake-studio.com/personal-training/"/>
   </url>
   <url>
-    <loc>https://quakegym.com/pilates/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://quakegym.com/pilates/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quakegym.com/en/pilates/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quakegym.com/pilates/"/>
+    <loc>https://quake-studio.com/pilates/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://quake-studio.com/pilates/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quake-studio.com/en/pilates/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quake-studio.com/pilates/"/>
   </url>
   <url>
-    <loc>https://quakegym.com/en/pilates/</loc>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://quakegym.com/pilates/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://quakegym.com/en/pilates/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://quakegym.com/pilates/"/>
+    <loc>https://quake-studio.com/en/pilates/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://quake-studio.com/pilates/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quake-studio.com/en/pilates/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quake-studio.com/pilates/"/>
   </url>
 </urlset>

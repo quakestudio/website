@@ -8,18 +8,20 @@ request. Kev only gets involved for infrastructure.
 
 | Piece | Lives in | Notes |
 | --- | --- | --- |
-| Domain `quakegym.com` | Kev's Cloudflare account (Cloudflare Registrar) | Register it with **Berker as the registrant contact** so the domain is legally his. Turn on auto-renew. About $10–11 a year, at cost. |
+| Domain `quake-studio.com` | Kev's Cloudflare account (Cloudflare Registrar) | Register it with **Berker as the registrant contact** so the domain is legally his. Turn on auto-renew. About $10–11 a year, at cost. |
 | Hosting | Kev's Cloudflare account, Pages project `quake-website` | Free tier. Deploys `site/` from `main`. |
 | Code | GitHub org `quakestudio` (free), repo `website` | Kev is owner. Berker gets **Write** access. An org (not Kev's personal account) makes a later handover a single click. |
 | Edits | Berker's ChatGPT Plus, Codex connected to his GitHub account | Codex opens pull requests; Berker previews and merges. |
 | Google Business Profile, Search Console, Analytics | Berker's Google account | Add Kev as a manager/admin where needed. |
 
-Why `quakegym.com`: it matches the Google listing ("QUAKE Gym & Pilates") and
-the Instagram handle (@quake.gym), and it is spelled the same in Turkish and
-English. `quakestudio.com` is taken by another business, which also makes
-`quakestudyo.com` risky: people who hear "Quake Studio" will type the English
-spelling and land on someone else's site. Checked 2026-10-19: `quakegym.com`
-and `quakestudyo.com` were unregistered.
+Domain status: `quake-studio.com` is the working choice, pending Berker's
+sign-off. Berker prefers "studio" in the name. `quakestudio.com` (no hyphen)
+belongs to another business, so anyone who leaves out the hyphen lands on
+their site; say "quake dash studio" when giving out the address, and print it
+with the hyphen. Checked 2026-10-19: `quake-studio.com`, `quakegym.com`,
+`quake.studio` and `quakestudyo.com` were unregistered. If the choice changes,
+replace the domain everywhere (site, `scripts/check_site.py`, these docs) in one
+commit.
 
 Public or private repo: either works with Codex and Cloudflare. Public is the
 better fit here because GitHub's free plan only enforces branch rules on public
@@ -33,7 +35,7 @@ registrar of Berker's choice (allowed 60 days after registration).
 ## One-time setup (Kev, about an hour)
 
 1. **Domain.** Cloudflare dashboard → Domain Registration → Register Domains →
-   `quakegym.com`. Registrant contact: Berker / QUAKE Gym & Pilates, his email
+   `quake-studio.com`. Registrant contact: Berker / QUAKE Gym & Pilates, his email
    and phone. Auto-renew on.
 2. **Repository.** Signed in to GitHub as **kevb** (not the work account),
    create the org `quakestudio`, then a repo `website`. This folder is already a
@@ -64,9 +66,9 @@ registrar of Berker's choice (allowed 60 days after registration).
 
    The first deploy gives a `*.pages.dev` address. Send that to Berker for
    review before buying anything else.
-4. **Custom domain.** Pages project → Custom domains → add `quakegym.com` and
-   `www.quakegym.com`. Then Rules → Redirect Rules: redirect
-   `www.quakegym.com/*` to `https://quakegym.com/${1}` (301, keep query
+4. **Custom domain.** Pages project → Custom domains → add `quake-studio.com` and
+   `www.quake-studio.com`. Then Rules → Redirect Rules: redirect
+   `www.quake-studio.com/*` to `https://quake-studio.com/${1}` (301, keep query
    string).
 5. **Branch rule.** GitHub repo → Settings → Rules → New branch ruleset for
    `main`: require a pull request before merging (0 approvals), require the
@@ -82,11 +84,11 @@ registrar of Berker's choice (allowed 60 days after registration).
    Add Google Tag Manager / GA4 when Google Ads starts; that needs a cookie
    consent banner under KVKK. The click events (`click_whatsapp`,
    `click_phone`, `click_maps`, `click_instagram`) are already wired up.
-8. **Search Console.** Add `quakegym.com` as a Domain property (verify with a
-   DNS TXT record in Cloudflare), submit `https://quakegym.com/sitemap.xml`,
+8. **Search Console.** Add `quake-studio.com` as a Domain property (verify with a
+   DNS TXT record in Cloudflare), submit `https://quake-studio.com/sitemap.xml`,
    then add Berker as an owner.
 9. **Google Business Profile.** Berker sets the website field to
-   `https://quakegym.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp`.
+   `https://quake-studio.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp`.
 
 ## Berker's side
 

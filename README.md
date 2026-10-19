@@ -1,7 +1,7 @@
 # QUAKE Gym & Pilates website
 
 Website for QUAKE Gym & Pilates, a private personal training and Pilates
-studio in Cihangir, Beyoğlu, Istanbul. Live at https://quakegym.com.
+studio in Cihangir, Beyoğlu, Istanbul. Live at https://quake-studio.com.
 
 - Plain static HTML and CSS in `site/`. No build step.
 - Turkish at `/`, English at `/en/`.

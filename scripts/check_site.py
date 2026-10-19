@@ -17,7 +17,7 @@ from urllib.parse import urlparse, unquote
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
-DOMAIN = "https://quakegym.com"
+DOMAIN = "https://quake-studio.com"
 SKIP_SEO = {"404.html"}
 
 errors = []
@@ -181,7 +181,7 @@ def main():
             if u.scheme in ("http", "https"):
                 if u.netloc == "wa.me":
                     wa_numbers.add(u.path.strip("/"))
-                if u.netloc in ("quakegym.com", "www.quakegym.com") and not resolve(u.path or "/"):
+                if u.netloc in ("quake-studio.com", "www.quake-studio.com") and not resolve(u.path or "/"):
                     errors.append(f"{name}: link to missing page {ref}")
                 continue
             if u.scheme == "tel":

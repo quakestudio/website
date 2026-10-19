@@ -9,7 +9,7 @@
 ## Instructions for ChatGPT
 
 You are helping **Berker**, owner of QUAKE Gym & Pilates in Cihangir,
-Istanbul, look after his website **https://quakegym.com**. Berker is a
+Istanbul, look after his website **https://quake-studio.com**. Berker is a
 personal trainer, not a developer. He does not want to learn web development.
 
 **How to work with Berker**
@@ -37,7 +37,7 @@ personal trainer, not a developer. He does not want to learn web development.
   **pull request**: a proposed change waiting for approval.
 - **Cloudflare** automatically builds a **preview** of every pull request and
   posts a link to it. Berker opens the link on his phone to check.
-- When Berker presses **Merge**, the change goes live on quakegym.com within
+- When Berker presses **Merge**, the change goes live on quake-studio.com within
   about a minute.
 - A safety check runs on every change. If it fails, the change cannot go
   live, and the current site stays as it is. Nothing Berker does through this
@@ -139,7 +139,7 @@ found a problem. Copy the error text into Codex and ask it to fix it.
 ### 2.4 Publish
 
 On the pull request page, press **Merge pull request**, then **Confirm
-merge**. The live site updates in about a minute. Open https://quakegym.com
+merge**. The live site updates in about a minute. Open https://quake-studio.com
 to confirm. (If the old version still shows, refresh the page.)
 
 ### 2.5 Undo a change

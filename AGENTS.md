@@ -12,7 +12,7 @@ request he can preview and merge.
 - Plain static HTML and one CSS file. **No build step, no framework, no npm, no
   bundler.** Do not add any of these.
 - Cloudflare Pages deploys the `site/` folder. Every pull request gets a
-  preview URL; merging to `main` publishes to https://quakegym.com.
+  preview URL; merging to `main` publishes to https://quake-studio.com.
 - The Cloudflare build runs `python3 scripts/check_site.py`. If it fails, the
   deploy fails and the live site stays as it was.
 
@@ -61,7 +61,7 @@ contact section, footer, FAQ answers, and the JSON-LD `<script>` blocks.
 | Google Maps | https://maps.google.com/?cid=8926959691805171702 |
 | Instagram | https://www.instagram.com/quake.gym/ |
 | Google rating | 5.0 from 27 reviews (update the number in both languages when it changes) |
-| Domain | https://quakegym.com (do not change canonical URLs unless told to) |
+| Domain | https://quake-studio.com (do not change canonical URLs unless told to) |
 
 WhatsApp links carry a pre-filled message, URL-encoded. Personal Training pages
 and the homepage use the Personal Training message; Pilates pages use the

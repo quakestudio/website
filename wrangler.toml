@@ -1,0 +1,5 @@
+# Cloudflare Pages project. The Git integration deploys the folder below.
+# Build command (set in the Cloudflare dashboard): python3 scripts/check_site.py
+name = "quake-website"
+pages_build_output_dir = "site"
+compatibility_date = "2026-10-01"

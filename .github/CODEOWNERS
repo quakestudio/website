@@ -1,0 +1,6 @@
+# Changes to infrastructure files request Kev's review automatically.
+/scripts/       @kevb
+/.github/       @kevb
+/wrangler.toml  @kevb
+/site/_headers  @kevb
+/AGENTS.md      @kevb
